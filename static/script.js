@@ -24,7 +24,7 @@ e.preventDefault();
             }
         }
     }
-    xhr.open("POST", "http://localhost:3000/feedback");
+    xhr.open("POST", "/feedback");
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify(documento));
 
