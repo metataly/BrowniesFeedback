@@ -1,0 +1,125 @@
+body{
+    background-image: url('./media/bgBrownie.jpg');
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50%;
+
+    img{
+        width: 50%;
+        mix-blend-mode: multiply;
+        border-radius: 50px;
+    }
+
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+
+        span{
+            font-weight: 700;
+            font-style: italic;
+            color: saddlebrown;
+        }
+    }
+
+    h2{
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+form{
+    background-color: saddlebrown;
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    fieldset{
+        border: 1px solid #f5dbb1;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    legend{
+        text-align: center;
+        font-size: medium;
+        font-weight: 400;
+        color: #f5dbb1;
+        padding: 2%;
+    }
+
+    .opStar{
+        appearance: none;
+        position: absolute;
+        opacity: 0;
+    }
+    label {
+        cursor: pointer;
+        padding: 2px;
+        border-radius: 15px;
+        transition: 0.3s ease;
+        margin: 2%;
+    }
+    .opStar:checked + label {
+        background-color: #f5dbb1;
+        transform: scale(1.10);
+    }
+
+    select{
+        width: 50%;
+        border-radius: 5px;
+        height: 30px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        
+        option{
+            background-color: #f5dbb1;
+            font-size: smaller;
+        }
+    }
+}
+
+.feedbackText{
+    border-radius: 15px;
+    width: 100%;
+    height: 120px;
+    background-color: #f5dbb1;
+    border: none;
+    margin: 2%;
+    text-align: start;
+}
+
+button{
+    background-color: #f5dbb1;
+    width: 20%;
+    padding: 1%;
+    border-radius: 5px;
+    border: none;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+}
+
