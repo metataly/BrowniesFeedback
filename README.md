@@ -8,7 +8,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **rownies Feedback** é um site disponível no Ranger, feito para que os clientes possam realizar feedbacks de Brownies feito por uma vendedora local iniciante.  
+O **rownies Feedback** é um site disponível no Replit, feito para que os clientes possam realizar feedbacks de Brownies feito por uma vendedora local iniciante.  
 O projeto permite que clientes registrem a loja parceira de vendas, uma nota e um comentário explicando sua opinião sobre os Brownies comprados, visando melhorias de receita e adaptação ao público alvo.
 
 ---
